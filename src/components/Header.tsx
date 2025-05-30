@@ -27,14 +27,14 @@ const Header = () => {
                 <ChevronDown className="ml-1 h-4 w-4" />
               </button>
             </div>
+            <a href="/catalog" className="text-gray-700 hover:text-renicaa-green transition-colors">
+              Shop
+            </a>
             <a href="#how-it-works" className="text-gray-700 hover:text-renicaa-green transition-colors">
               How It Works
             </a>
             <a href="#features" className="text-gray-700 hover:text-renicaa-green transition-colors">
               Features
-            </a>
-            <a href="#pricing" className="text-gray-700 hover:text-renicaa-green transition-colors">
-              Pricing
             </a>
             <a href="#contact" className="text-gray-700 hover:text-renicaa-green transition-colors">
               Contact
@@ -69,14 +69,14 @@ const Header = () => {
               <a href="#solutions" className="block px-3 py-2 text-gray-700 hover:text-renicaa-green">
                 Solutions
               </a>
+              <a href="/catalog" className="block px-3 py-2 text-gray-700 hover:text-renicaa-green">
+                Shop
+              </a>
               <a href="#how-it-works" className="block px-3 py-2 text-gray-700 hover:text-renicaa-green">
                 How It Works
               </a>
               <a href="#features" className="block px-3 py-2 text-gray-700 hover:text-renicaa-green">
                 Features
-              </a>
-              <a href="#pricing" className="block px-3 py-2 text-gray-700 hover:text-renicaa-green">
-                Pricing
               </a>
               <a href="#contact" className="block px-3 py-2 text-gray-700 hover:text-renicaa-green">
                 Contact
