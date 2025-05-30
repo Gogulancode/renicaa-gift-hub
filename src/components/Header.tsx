@@ -1,7 +1,7 @@
 
 import { useState } from 'react';
 import { Button } from '@/components/ui/button';
-import { Menu, X, Search, ShoppingBag, User } from 'lucide-react';
+import { Menu, X, Search, ShoppingBag, User, ChevronDown } from 'lucide-react';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -21,8 +21,9 @@ const Header = () => {
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
-            <a href="#solutions" className="text-gray-700 hover:text-renicaa-green transition-colors font-medium">
+            <a href="#solutions" className="text-gray-700 hover:text-renicaa-green transition-colors font-medium flex items-center">
               Solutions
+              <ChevronDown className="ml-1 h-4 w-4" />
             </a>
             <a href="#how-it-works" className="text-gray-700 hover:text-renicaa-green transition-colors font-medium">
               How It Works
@@ -66,8 +67,9 @@ const Header = () => {
         {isMenuOpen && (
           <div className="md:hidden">
             <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-white border-t">
-              <a href="#solutions" className="block px-3 py-2 text-gray-700 hover:text-renicaa-green font-medium">
+              <a href="#solutions" className="block px-3 py-2 text-gray-700 hover:text-renicaa-green font-medium flex items-center">
                 Solutions
+                <ChevronDown className="ml-1 h-4 w-4" />
               </a>
               <a href="#how-it-works" className="block px-3 py-2 text-gray-700 hover:text-renicaa-green font-medium">
                 How It Works
