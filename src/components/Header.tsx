@@ -1,7 +1,7 @@
 
 import { useState } from 'react';
 import { Button } from '@/components/ui/button';
-import { Menu, X, ChevronDown } from 'lucide-react';
+import { Menu, X, Search, ShoppingBag, User } from 'lucide-react';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -21,34 +21,40 @@ const Header = () => {
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
-            <div className="relative group">
-              <button className="flex items-center text-gray-700 hover:text-renicaa-green transition-colors">
-                Solutions
-                <ChevronDown className="ml-1 h-4 w-4" />
-              </button>
-            </div>
-            <a href="/catalog" className="text-gray-700 hover:text-renicaa-green transition-colors">
-              Shop
+            <a href="#tech" className="text-gray-700 hover:text-renicaa-green transition-colors font-medium">
+              TECH
             </a>
-            <a href="#how-it-works" className="text-gray-700 hover:text-renicaa-green transition-colors">
-              How It Works
+            <a href="#accessories" className="text-gray-700 hover:text-renicaa-green transition-colors font-medium">
+              BAGS & WALLETS
             </a>
-            <a href="#features" className="text-gray-700 hover:text-renicaa-green transition-colors">
-              Features
+            <a href="#essentials" className="text-renicaa-green font-medium border-b-2 border-renicaa-green">
+              WORK ESSENTIALS
             </a>
-            <a href="#contact" className="text-gray-700 hover:text-renicaa-green transition-colors">
-              Contact
+            <a href="/catalog" className="text-gray-700 hover:text-renicaa-green transition-colors font-medium">
+              GIFTING
+            </a>
+            <a href="#collections" className="text-gray-700 hover:text-renicaa-green transition-colors font-medium">
+              COLLECTIONS
+            </a>
+            <a href="#shop-by-apple" className="text-gray-700 hover:text-renicaa-green transition-colors font-medium">
+              SHOP BY APPLE
+            </a>
+            <a href="#new-arrivals" className="text-gray-700 hover:text-renicaa-green transition-colors font-medium">
+              NEW ARRIVALS
             </a>
           </nav>
 
-          {/* Desktop CTA Buttons */}
+          {/* Desktop Icons */}
           <div className="hidden md:flex items-center space-x-4">
-            <Button variant="outline" className="border-renicaa-green text-renicaa-green hover:bg-renicaa-green hover:text-white">
-              Sign In
-            </Button>
-            <Button className="bg-renicaa-green hover:bg-renicaa-green-dark text-white">
-              Get Started
-            </Button>
+            <button className="text-gray-700 hover:text-renicaa-green">
+              <ShoppingBag className="h-6 w-6" />
+            </button>
+            <button className="text-gray-700 hover:text-renicaa-green">
+              <User className="h-6 w-6" />
+            </button>
+            <button className="text-gray-700 hover:text-renicaa-green">
+              <Search className="h-6 w-6" />
+            </button>
           </div>
 
           {/* Mobile menu button */}
@@ -66,29 +72,27 @@ const Header = () => {
         {isMenuOpen && (
           <div className="md:hidden">
             <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-white border-t">
-              <a href="#solutions" className="block px-3 py-2 text-gray-700 hover:text-renicaa-green">
-                Solutions
+              <a href="#tech" className="block px-3 py-2 text-gray-700 hover:text-renicaa-green font-medium">
+                TECH
               </a>
-              <a href="/catalog" className="block px-3 py-2 text-gray-700 hover:text-renicaa-green">
-                Shop
+              <a href="#accessories" className="block px-3 py-2 text-gray-700 hover:text-renicaa-green font-medium">
+                BAGS & WALLETS
               </a>
-              <a href="#how-it-works" className="block px-3 py-2 text-gray-700 hover:text-renicaa-green">
-                How It Works
+              <a href="#essentials" className="block px-3 py-2 text-renicaa-green font-medium">
+                WORK ESSENTIALS
               </a>
-              <a href="#features" className="block px-3 py-2 text-gray-700 hover:text-renicaa-green">
-                Features
+              <a href="/catalog" className="block px-3 py-2 text-gray-700 hover:text-renicaa-green font-medium">
+                GIFTING
               </a>
-              <a href="#contact" className="block px-3 py-2 text-gray-700 hover:text-renicaa-green">
-                Contact
+              <a href="#collections" className="block px-3 py-2 text-gray-700 hover:text-renicaa-green font-medium">
+                COLLECTIONS
               </a>
-              <div className="flex flex-col space-y-2 px-3 py-2">
-                <Button variant="outline" className="border-renicaa-green text-renicaa-green">
-                  Sign In
-                </Button>
-                <Button className="bg-renicaa-green hover:bg-renicaa-green-dark text-white">
-                  Get Started
-                </Button>
-              </div>
+              <a href="#shop-by-apple" className="block px-3 py-2 text-gray-700 hover:text-renicaa-green font-medium">
+                SHOP BY APPLE
+              </a>
+              <a href="#new-arrivals" className="block px-3 py-2 text-gray-700 hover:text-renicaa-green font-medium">
+                NEW ARRIVALS
+              </a>
             </div>
           </div>
         )}
