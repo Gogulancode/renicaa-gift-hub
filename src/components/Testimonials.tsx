@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-=======
-
->>>>>>> 944bf0a80c2e8e9c92a562be37cd27e077726548
 import { Card, CardContent } from '@/components/ui/card';
 import { Star, Quote } from 'lucide-react';
 
@@ -34,7 +30,6 @@ const Testimonials = () => {
   ];
 
   return (
-<<<<<<< HEAD
     <section className="py-20 bg-accent">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
@@ -42,15 +37,6 @@ const Testimonials = () => {
             What Our <span className="text-renicaa-green">Clients Say</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-=======
-    <section className="py-20 bg-gray-50">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-            What Our <span className="text-renicaa-green">Clients Say</span>
-          </h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
->>>>>>> 944bf0a80c2e8e9c92a562be37cd27e077726548
             Don't just take our word for it. Here's what industry leaders have to say 
             about their experience with Renicaa's corporate gifting platform.
           </p>
@@ -58,11 +44,7 @@ const Testimonials = () => {
 
         <div className="grid md:grid-cols-3 gap-8">
           {testimonials.map((testimonial, index) => (
-<<<<<<< HEAD
             <Card key={index} className="hover:shadow-lg transition-all duration-300 border-border shadow-md">
-=======
-            <Card key={index} className="hover:shadow-lg transition-all duration-300 border-0 shadow-md">
->>>>>>> 944bf0a80c2e8e9c92a562be37cd27e077726548
               <CardContent className="p-8">
                 <div className="flex items-center mb-4">
                   {[...Array(testimonial.rating)].map((_, i) => (
@@ -72,11 +54,7 @@ const Testimonials = () => {
                 
                 <Quote className="h-8 w-8 text-renicaa-green/20 mb-4" />
                 
-<<<<<<< HEAD
                 <p className="text-muted-foreground leading-relaxed mb-6">
-=======
-                <p className="text-gray-600 leading-relaxed mb-6">
->>>>>>> 944bf0a80c2e8e9c92a562be37cd27e077726548
                   "{testimonial.content}"
                 </p>
                 
@@ -87,13 +65,8 @@ const Testimonials = () => {
                     className="w-12 h-12 rounded-full object-cover mr-4"
                   />
                   <div>
-<<<<<<< HEAD
                     <div className="font-semibold text-foreground">{testimonial.name}</div>
                     <div className="text-sm text-muted-foreground">{testimonial.position}</div>
-=======
-                    <div className="font-semibold text-gray-900">{testimonial.name}</div>
-                    <div className="text-sm text-gray-500">{testimonial.position}</div>
->>>>>>> 944bf0a80c2e8e9c92a562be37cd27e077726548
                     <div className="text-sm text-renicaa-green font-medium">{testimonial.company}</div>
                   </div>
                 </div>
@@ -103,19 +76,11 @@ const Testimonials = () => {
         </div>
 
         <div className="mt-16 text-center">
-<<<<<<< HEAD
           <div className="inline-flex items-center bg-background rounded-full px-6 py-3 shadow-md">
             <div className="flex items-center space-x-2">
               <Star className="h-5 w-5 text-renicaa-gold fill-current" />
               <span className="font-semibold text-foreground">4.9/5</span>
               <span className="text-muted-foreground">from 500+ reviews</span>
-=======
-          <div className="inline-flex items-center bg-white rounded-full px-6 py-3 shadow-md">
-            <div className="flex items-center space-x-2">
-              <Star className="h-5 w-5 text-renicaa-gold fill-current" />
-              <span className="font-semibold text-gray-900">4.9/5</span>
-              <span className="text-gray-600">from 500+ reviews</span>
->>>>>>> 944bf0a80c2e8e9c92a562be37cd27e077726548
             </div>
           </div>
         </div>
@@ -124,8 +89,4 @@ const Testimonials = () => {
   );
 };
 
-<<<<<<< HEAD
 export default Testimonials;
-=======
-export default Testimonials;
->>>>>>> 944bf0a80c2e8e9c92a562be37cd27e077726548
