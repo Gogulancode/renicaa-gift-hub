@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+
+>>>>>>> 944bf0a80c2e8e9c92a562be37cd27e077726548
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Check, Star } from 'lucide-react';
@@ -53,6 +57,7 @@ const Pricing = () => {
   ];
 
   return (
+<<<<<<< HEAD
     <section id="pricing" className="py-20 bg-background">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
@@ -60,6 +65,15 @@ const Pricing = () => {
             Simple, Transparent <span className="text-renicaa-green">Pricing</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+=======
+    <section id="pricing" className="py-20 bg-white">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="text-center mb-16">
+          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+            Simple, Transparent <span className="text-renicaa-green">Pricing</span>
+          </h2>
+          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+>>>>>>> 944bf0a80c2e8e9c92a562be37cd27e077726548
             Choose the plan that fits your gifting needs. All plans include our core features 
             and world-class support. Upgrade or downgrade anytime.
           </p>
@@ -72,7 +86,11 @@ const Pricing = () => {
               className={`relative hover:shadow-xl transition-all duration-300 ${
                 plan.popular 
                   ? 'border-renicaa-green shadow-lg scale-105' 
+<<<<<<< HEAD
                   : 'border-border hover:border-renicaa-green/30'
+=======
+                  : 'border-gray-200 hover:border-renicaa-green/30'
+>>>>>>> 944bf0a80c2e8e9c92a562be37cd27e077726548
               }`}
             >
               {plan.popular && (
@@ -85,14 +103,24 @@ const Pricing = () => {
               )}
               
               <CardHeader className="text-center pb-8">
+<<<<<<< HEAD
                 <CardTitle className="text-2xl font-bold text-foreground mb-2">
+=======
+                <CardTitle className="text-2xl font-bold text-gray-900 mb-2">
+>>>>>>> 944bf0a80c2e8e9c92a562be37cd27e077726548
                   {plan.name}
                 </CardTitle>
                 <div className="flex items-baseline justify-center mb-4">
                   <span className="text-4xl font-bold text-renicaa-green">{plan.price}</span>
+<<<<<<< HEAD
                   <span className="text-muted-foreground ml-1">{plan.period}</span>
                 </div>
                 <p className="text-muted-foreground">{plan.description}</p>
+=======
+                  <span className="text-gray-500 ml-1">{plan.period}</span>
+                </div>
+                <p className="text-gray-600">{plan.description}</p>
+>>>>>>> 944bf0a80c2e8e9c92a562be37cd27e077726548
               </CardHeader>
               
               <CardContent>
@@ -100,7 +128,11 @@ const Pricing = () => {
                   {plan.features.map((feature, featureIndex) => (
                     <li key={featureIndex} className="flex items-center">
                       <Check className="h-5 w-5 text-renicaa-green mr-3 flex-shrink-0" />
+<<<<<<< HEAD
                       <span className="text-muted-foreground">{feature}</span>
+=======
+                      <span className="text-gray-600">{feature}</span>
+>>>>>>> 944bf0a80c2e8e9c92a562be37cd27e077726548
                     </li>
                   ))}
                 </ul>
@@ -109,7 +141,11 @@ const Pricing = () => {
                   className={`w-full ${
                     plan.popular
                       ? 'bg-renicaa-green hover:bg-renicaa-green-dark text-white'
+<<<<<<< HEAD
                       : 'bg-background border-2 border-renicaa-green text-renicaa-green hover:bg-renicaa-green hover:text-white'
+=======
+                      : 'bg-white border-2 border-renicaa-green text-renicaa-green hover:bg-renicaa-green hover:text-white'
+>>>>>>> 944bf0a80c2e8e9c92a562be37cd27e077726548
                   }`}
                   size="lg"
                 >
@@ -121,13 +157,19 @@ const Pricing = () => {
         </div>
 
         <div className="mt-16 text-center">
+<<<<<<< HEAD
           <div className="bg-accent rounded-2xl p-8 max-w-4xl mx-auto">
             <h3 className="text-2xl font-bold text-foreground mb-4">
+=======
+          <div className="bg-gray-50 rounded-2xl p-8 max-w-4xl mx-auto">
+            <h3 className="text-2xl font-bold text-gray-900 mb-4">
+>>>>>>> 944bf0a80c2e8e9c92a562be37cd27e077726548
               All Plans Include
             </h3>
             <div className="grid md:grid-cols-3 gap-6 text-center">
               <div>
                 <div className="text-3xl font-bold text-renicaa-green mb-2">24/7</div>
+<<<<<<< HEAD
                 <div className="text-muted-foreground">Customer Support</div>
               </div>
               <div>
@@ -137,6 +179,17 @@ const Pricing = () => {
               <div>
                 <div className="text-3xl font-bold text-renicaa-green mb-2">30-Day</div>
                 <div className="text-muted-foreground">Money-Back Guarantee</div>
+=======
+                <div className="text-gray-600">Customer Support</div>
+              </div>
+              <div>
+                <div className="text-3xl font-bold text-renicaa-green mb-2">99.9%</div>
+                <div className="text-gray-600">Uptime SLA</div>
+              </div>
+              <div>
+                <div className="text-3xl font-bold text-renicaa-green mb-2">30-Day</div>
+                <div className="text-gray-600">Money-Back Guarantee</div>
+>>>>>>> 944bf0a80c2e8e9c92a562be37cd27e077726548
               </div>
             </div>
           </div>

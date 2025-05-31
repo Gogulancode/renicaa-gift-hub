@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+
+>>>>>>> 944bf0a80c2e8e9c92a562be37cd27e077726548
 import { Card, CardContent } from '@/components/ui/card';
 import { Gift, Users, Clock, Award, BarChart, Shield } from 'lucide-react';
 
@@ -36,6 +40,7 @@ const Features = () => {
   ];
 
   return (
+<<<<<<< HEAD
     <section id="features" className="py-20 bg-background">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
@@ -44,6 +49,16 @@ const Features = () => {
             <span className="text-renicaa-green"> Corporate Gifting</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+=======
+    <section id="features" className="py-20 bg-gray-50">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="text-center mb-16">
+          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+            Everything You Need for
+            <span className="text-renicaa-green"> Corporate Gifting</span>
+          </h2>
+          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+>>>>>>> 944bf0a80c2e8e9c92a562be37cd27e077726548
             Our comprehensive platform provides all the tools and features you need to create 
             memorable gifting experiences that strengthen business relationships.
           </p>
@@ -53,16 +68,27 @@ const Features = () => {
           {features.map((feature, index) => (
             <Card 
               key={index} 
+<<<<<<< HEAD
               className="hover:shadow-lg transition-all duration-300 hover:-translate-y-1 border-border shadow-md"
+=======
+              className="hover:shadow-lg transition-all duration-300 hover:-translate-y-1 border-0 shadow-md"
+>>>>>>> 944bf0a80c2e8e9c92a562be37cd27e077726548
             >
               <CardContent className="p-8">
                 <div className="w-12 h-12 bg-renicaa-green/10 rounded-lg flex items-center justify-center mb-6">
                   <feature.icon className="h-6 w-6 text-renicaa-green" />
                 </div>
+<<<<<<< HEAD
                 <h3 className="text-xl font-semibold text-foreground mb-3">
                   {feature.title}
                 </h3>
                 <p className="text-muted-foreground leading-relaxed">
+=======
+                <h3 className="text-xl font-semibold text-gray-900 mb-3">
+                  {feature.title}
+                </h3>
+                <p className="text-gray-600 leading-relaxed">
+>>>>>>> 944bf0a80c2e8e9c92a562be37cd27e077726548
                   {feature.description}
                 </p>
               </CardContent>
@@ -75,7 +101,11 @@ const Features = () => {
             <h3 className="text-2xl md:text-3xl font-bold mb-4">
               Ready to Transform Your Corporate Gifting?
             </h3>
+<<<<<<< HEAD
             <p className="text-xl text-white/90 mb-8 max-w-2xl mx-auto">
+=======
+            <p className="text-xl text-gray-100 mb-8 max-w-2xl mx-auto">
+>>>>>>> 944bf0a80c2e8e9c92a562be37cd27e077726548
               Join thousands of companies who trust Renicaa for their corporate gifting needs.
             </p>
             <button className="bg-renicaa-gold text-renicaa-green px-8 py-3 rounded-lg font-semibold hover:bg-renicaa-gold/90 transition-colors">
@@ -88,4 +118,8 @@ const Features = () => {
   );
 };
 
+<<<<<<< HEAD
 export default Features;
+=======
+export default Features;
+>>>>>>> 944bf0a80c2e8e9c92a562be37cd27e077726548

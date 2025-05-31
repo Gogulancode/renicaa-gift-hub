@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+
+>>>>>>> 944bf0a80c2e8e9c92a562be37cd27e077726548
 import { Button } from '@/components/ui/button';
 import { ArrowRight } from 'lucide-react';
 
@@ -7,7 +11,11 @@ const Hero = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-32">
         <div className="text-center">
           <div className="mb-6">
+<<<<<<< HEAD
             <span className="text-sm uppercase tracking-wider text-renicaa-gold">CORPORATE GIFTING</span>
+=======
+            <span className="text-sm uppercase tracking-wider text-green-200">CORPORATE GIFTING</span>
+>>>>>>> 944bf0a80c2e8e9c92a562be37cd27e077726548
           </div>
           
           <h1 className="text-5xl md:text-7xl font-bold leading-tight mb-8">
@@ -16,8 +24,12 @@ const Hero = () => {
             <span className="text-white">Means Business</span>
           </h1>
           
+<<<<<<< HEAD
           {/* EXPLICITLY set text-renicaa-gold for the paragraph */}
           <p className="text-xl text-renicaa-gold mb-12 max-w-2xl mx-auto leading-relaxed">
+=======
+          <p className="text-xl text-green-100 mb-12 max-w-2xl mx-auto leading-relaxed">
+>>>>>>> 944bf0a80c2e8e9c92a562be37cd27e077726548
             Transform your corporate relationships with personalized gift experiences that strengthen 
             business connections and celebrate achievements.
           </p>
@@ -25,7 +37,11 @@ const Hero = () => {
           <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
             <Button 
               size="lg" 
+<<<<<<< HEAD
               className="bg-white text-renicaa-green hover:bg-renicaa-gold/20 font-semibold px-8 py-4 rounded-full text-lg"
+=======
+              className="bg-white text-renicaa-green hover:bg-green-50 font-semibold px-8 py-4 rounded-full text-lg"
+>>>>>>> 944bf0a80c2e8e9c92a562be37cd27e077726548
             >
               Talk to Sales
               <ArrowRight className="ml-2 h-5 w-5" />
@@ -39,9 +55,17 @@ const Hero = () => {
             </Button>
           </div>
           
+<<<<<<< HEAD
           <div className="mt-16 relative">
             <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2">
               <div className="w-32 h-32 bg-renicaa-gold/20 rounded-full flex items-center justify-center">
+=======
+          {/* Decorative element - could add a mascot illustration here */}
+          <div className="mt-16 relative">
+            <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2">
+              {/* Placeholder for mascot illustration */}
+              <div className="w-32 h-32 bg-green-400/20 rounded-full flex items-center justify-center">
+>>>>>>> 944bf0a80c2e8e9c92a562be37cd27e077726548
                 <span className="text-4xl">🎁</span>
               </div>
             </div>
@@ -52,4 +76,8 @@ const Hero = () => {
   );
 };
 
+<<<<<<< HEAD
 export default Hero;
+=======
+export default Hero;
+>>>>>>> 944bf0a80c2e8e9c92a562be37cd27e077726548
